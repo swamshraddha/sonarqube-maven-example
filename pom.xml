@@ -47,6 +47,11 @@
             <activation>
                 <activeByDefault>true</activeByDefault>
             </activation>
+ <properties>
+  <sonar.projectKey>swamshraddha_sonarqube-maven-example</sonar.projectKey>
+  <sonar.organization>swamshraddha</sonar.organization>
+  <sonar.host.url>https://sonarcloud.io</sonar.host.url>
+</properties>
             <properties>
                 <!-- Optional URL to server. Default value is http://localhost:9000 -->
                 <sonar.host.url>
